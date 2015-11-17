@@ -1,0 +1,11 @@
+DEPENDENCIES
+  apache
+    path: site-cookbooks/apache
+  mysql
+    path: site-cookbooks/mysql
+  selinux
+
+GRAPH
+  apache (0.1.0)
+  mysql (0.1.0)
+  selinux (0.9.0)
